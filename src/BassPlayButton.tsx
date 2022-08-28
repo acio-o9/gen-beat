@@ -2,7 +2,7 @@ import { Howl } from 'howler';
 
 const BassPlayButton = () => (
   <div>
-    <button onClick={playSound}>Bass</button>
+    <button onTouchStart={playSound}>Bass</button>
   </div>
 )
 
