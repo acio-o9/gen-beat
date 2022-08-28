@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import BassPlayButton from './BassPlayButton';
 import HiHatPlayButton from './HiHatPlayButton';
+import SamplePlayButton from './SamplePlayButton';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         </p>
         <BassPlayButton />
         <HiHatPlayButton />
+        <SamplePlayButton />
         <a
           className="App-link"
           href="https://reactjs.org"
