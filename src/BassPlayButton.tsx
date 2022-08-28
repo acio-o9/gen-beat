@@ -9,7 +9,7 @@ const BassPlayButton = () => (
 const playSound = () => {
   console.log('play now.');
   const sound = new Howl({
-    src: ['sound_effects/bass_drum.mp3'],
+    src: ['sound_effects/bass_drum.m4a'],
     onend: () => {
       console.log('played.');
     }

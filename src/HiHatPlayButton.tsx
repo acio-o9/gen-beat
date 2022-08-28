@@ -9,7 +9,7 @@ const HiHatPlayButton = () => (
 const playSound = () => {
   console.log('play now.');
   const sound = new Howl({
-    src: ['sound_effects/closed_hihat.mp3'],
+    src: ['sound_effects/closed_hihat.m4a'],
     onend: () => {
       console.log('played.');
     }
